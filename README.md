@@ -1,6 +1,6 @@
 # Práctica Final TP 13-14
 
-Proyecto realizado para la asignatura de Tecnología de la Programación (Curso 2013-2014) con el objetivo de aprender el paradigma de Programación Orientada a Objetos (POO). 
+Proyecto realizado para la asignatura de Tecnología de la Programación (curso 2013-2014) con el objetivo de aprender el paradigma de *Programación Orientada a Objetos* (*POO*). 
 
 Se trata de una aplicación de escritorio en Java que simula el funcionamiento de una máquina virtual. Dispone de tres modos de ejecución: interactivo (CLI), batch e interfaz (GUI).
 
@@ -40,3 +40,7 @@ Para su realización se han utilizado los patrones de diseño *MVC*, *Command* y
 ## Ejemplo
 
 `-m window -a progr.txt -i in.txt -o out.txt` para ejecutar el programa de ejemplo.
+
+![Antes de la ejecución del programa](https://github.com/cris3w/tp-vm-poo/blob/master/vm-1.png "vm-1")
+![Durante la ejecución del programa](https://github.com/cris3w/tp-vm-poo/blob/master/vm-2.png "vm-2")
+![Después de la ejecución del programa](https://github.com/cris3w/tp-vm-poo/blob/master/vm-3.png "vm-3")
