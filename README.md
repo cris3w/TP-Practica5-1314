@@ -13,29 +13,29 @@ Para su realización se han utilizado los patrones de diseño *MVC*, *Command* y
 
 - `-h`, `--help` Muestra la información de ayuda.
 
-- `-a` Fichero con el código ASM a ejecutar. Se requiere en el modo `batch`.
+- `-a` Fichero con el código ASM a ejecutar. Se requiere en el modo batch.
 
 - `-i` Entrada de la máquina para el programa.
 
-- `-m` Modo (`batch` | `interactive` | `window` ). `interactive` por defecto.
+- `-m` Modo (`batch` | `interactive` | `window` ). Por defecto, el interactivo.
 
 - `-o` Fichero en el que se guarda la salida.
 
 ## Instrucciones
 
-    | Aritméticas | Booleanas  |   De salto    | Comparación |  Secuenciales  |
-    | ----------- | ---------- | ------------- | ----------- | -------------- |
-    |   ADD       |   AND      |   BF          |   EQ        |   DUP          | 
-	|   DIV       |   OR       |   BT          |   GT        |   FLIP         |
-	|   MUL       |   NOT      |   JUMP        |   LE        |   HALT         |
-	|   SUB       |            |   JUMP [IND]  |   LT        |   IN           |
-	|             |            |   RBF         |             |   LOAD         | 
-	|             |            |   RBT         |             |   LOAD [IND]   |
-	|             |            |   RJUMP       |             |   OUT          |
-	|             |            |               |             |   POP          |
-	|             |            |               |             |   PUSH         |
-	|             |            |               |             |   STORE        |
-	|             |            |               |             |   STORE [IND]  |
+    Aritméticas | Booleanas  | Salto | Comparación | Secuenciales
+    --- | --- | --- | --- | ---
+    ADD | AND | BF | EQ | DUP 
+    DIV | OR | BT | GT | FLIP
+    MUL | NOT | JUMP | LE | HALT 
+    SUB |     | JUMP [IND] | LT | IN 
+	|     | RBF |     | LOAD
+	|     | RBT |     | LOAD [IND]
+	|     | RJUMP |     | OUT 
+	|     |     |     | POP 
+        |     |     |     | PUSH
+        |     |     |     | STORE
+        |     |     |     | STORE [IND]
 
 ## Ejemplo
 
